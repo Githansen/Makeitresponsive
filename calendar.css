@@ -1,6 +1,6 @@
 .gridcontainer1 {
 	display: grid;
-grid-template-columns: 12% 11% 11% 11% 11% 11% 11% 11% 11%  ;
+grid-template-columns: 12% 7% auto auto auto auto auto auto auto  ;
 grid-template-rows: auto; 
 font-size: 20px;
 
