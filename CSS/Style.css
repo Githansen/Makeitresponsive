@@ -3,6 +3,7 @@
   background-color: #566573;
   
 }
+
 .navigasjon a {
   float: left;
   display: block;
@@ -32,6 +33,7 @@ grid-column: auto;
    display: grid;
     justify-items: center;
     align-items: center;
+	
 
 }
 .medium {
@@ -96,6 +98,7 @@ grid-column: auto /span 2;
 	grid-row: auto;
 	grid-column: auto / span 2;
 	display: none;
+	position: absolute;
 	
 }
 .smallpic:hover >img + .skjul {
@@ -140,4 +143,18 @@ grid-column: auto /span 2;
 
 #registrering {
 	height: 300px;
+	background-color: #EBF5FB;
+	
 }
+.schedule {
+		grid-row: auto;
+grid-column: auto/ span 2;
+   display: grid;
+    justify-items: center;
+    
+	background-color: #EDBB99;
+	font-size: 24px;
+	border: 2px solid black;
+
+}
+
