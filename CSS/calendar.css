@@ -47,12 +47,7 @@ font-size: 20px;
 	font-size: 20px;
   top: 350px;
   left: 300px;
-  
-  
   background-color: #EDBB99;
- 
-  
-  
 }
 .weekday2:hover >p + .skjul{
 	display: block;
@@ -72,15 +67,54 @@ display: grid;
 	display: none; 
 	position: absolute;
 	font-size: 20px;
-  
+  top: 650px;
   left: 300px;
-  
-  
   background-color: #EDBB99;
- 
-  
-  
 }
 .weekday2:hover >p + .skjul2{
+	display: block;
+}
+.skjul3 {
+	display: none; 
+	position: absolute;
+	font-size: 20px;
+  top: 650px;
+  left: 300px;
+  background-color: #EDBB99;
+}
+.weekday2:hover >p + .skjul3{
+	display: block;
+}
+.skjul4 {
+	display: none; 
+	position: absolute;
+	font-size: 20px;
+  top: 650px;
+  left: 300px;
+  background-color: #EDBB99;
+}
+.weekday2:hover >p + .skjul4{
+	display: block;
+}
+.skjul5 {
+	display: none; 
+	position: absolute;
+	font-size: 20px;
+  top: 650px;
+  left: 300px;
+  background-color: #EDBB99;
+}
+.weekday2:hover >p + .skjul5{
+	display: block;
+}
+.skjul6 {
+	display: none; 
+	position: absolute;
+	font-size: 20px;
+  top: 650px;
+  left: 300px;
+  background-color: #EDBB99;
+}
+.weekday2:hover >p + .skjul6{
 	display: block;
 }
