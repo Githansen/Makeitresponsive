@@ -21,13 +21,13 @@ font-size: 20px;
 	display: grid;
 	grid-column: auto; 
 	grid-row: auto; 
-	word-break: break-all;
+	
 	height: 150px;
 	width: 100%
 	border-color: black;
 	border-radius: 5px;
 	border-style: solid;
-	
+	word-break: break-all;
 	text-align: center;
 	
 }
@@ -47,14 +47,25 @@ font-size: 20px;
 	font-size: 20px;
   top: 350px;
   left: 300px;
-  height: 50%;
-	width: 50%;
+  
   
   background-color: #EDBB99;
  
   
   
 }
-.weekday:hover >a + .skjul{
+.weekday2:hover >p + .skjul{
 	display: block;
+}
+.weekday2{
+display: grid;
+	grid-column: auto; 
+	grid-row: auto; 
+	
+	height: 150px;
+	width: 100%
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	text-align: center;
 }
