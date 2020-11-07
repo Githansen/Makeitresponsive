@@ -116,7 +116,15 @@ grid-column: auto /span 2;
     border-radius: 10px;
 	align-items: top;
 }
-#photo1 {
+#photo2 {
+	padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #BFBDB3;
+    border-radius: 10px;
+	align-items: top;
+}
+#photo3 {
 	padding: 20px;
     margin: 20px;
     font-size: 20px;
