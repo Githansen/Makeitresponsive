@@ -44,7 +44,7 @@ button {
 .navigasjon:hover .droppinnhold {
 	display: block;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 	
 	.navigasjon p{
 		display: none;
