@@ -1,0 +1,57 @@
+.navigasjon {
+  overflow: hidden;
+  background-color: #566573;
+  
+}
+
+.navigasjon a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 20px;
+	
+}
+.navigasjon img {
+	height: 100px; 
+	width: 100px;
+	float: left;
+}
+.link {
+	display: block;
+}
+.droppmeny {
+	display: none; 
+}
+button {
+	margin-top: 25px;
+	width: 100%;
+}
+.droppinnhold {
+	display: none; 
+	background-color: grey;
+	
+	position: absolute;
+  width: 100%;
+  font-size: 18px;
+  
+	
+}
+
+.navigasjon:hover .droppinnhold {
+	display: block;
+}
+@media only screen and (max-width: 600px) {
+	
+	.navigasjon p{
+		display: none;
+	}
+	.droppmeny {
+		display: block; 
+	}
+	
+	
+}

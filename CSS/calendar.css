@@ -48,6 +48,8 @@ font-size: 20px;
   top: 350px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul{
 	display: block;
@@ -70,6 +72,8 @@ display: grid;
   top: 650px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul2{
 	display: block;
@@ -78,9 +82,11 @@ display: grid;
 	display: none; 
 	position: absolute;
 	font-size: 20px;
-  top: 650px;
+  top: 850px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul3{
 	display: block;
@@ -89,9 +95,11 @@ display: grid;
 	display: none; 
 	position: absolute;
 	font-size: 20px;
-  top: 650px;
+  top: 1650px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul4{
 	display: block;
@@ -100,9 +108,11 @@ display: grid;
 	display: none; 
 	position: absolute;
 	font-size: 20px;
-  top: 650px;
+  top: 1850px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul5{
 	display: block;
@@ -111,10 +121,21 @@ display: grid;
 	display: none; 
 	position: absolute;
 	font-size: 20px;
-  top: 650px;
+  top: 1950px;
   left: 300px;
   background-color: #EDBB99;
+  box-shadow: 5px 10px;
+  border: 2px solid black;
 }
 .weekday2:hover >p + .skjul6{
 	display: block;
+}
+#date {
+	background-color: #A3E4D7;
+}
+#blank {
+	background-color: #566573;
+}
+#weeknumber {
+	background-color: #F2D7D5;
 }
