@@ -36,13 +36,19 @@ grid-column: auto/span 4;
 #topp {
 	height: 30px; 
 }
-#omoss {
+.omoss {
 	height: 50px;
 	background-color: #566573;
 	text-align: center;
 	font-size: 24px;
 	color: white;
+			grid-row: auto;
+grid-column: auto/span 4;
+   display: grid;
+    
+	
 }
+
 body {
 	background-color: #EBF5FB; 
 }
@@ -108,31 +114,17 @@ grid-column: auto /span 2;
     border-radius: 10px;
 	align-items: top;
 }
-#photo {
+.photo {
 	padding: 20px;
     margin: 20px;
     font-size: 20px;
     background-color: #BFBDB3;
     border-radius: 10px;
 	align-items: top;
+	
 }
-#photo2 {
-	padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: #BFBDB3;
-    border-radius: 10px;
-	align-items: top;
-}
-#photo3 {
-	padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: #BFBDB3;
-    border-radius: 10px;
-	align-items: top;
-}
-#tekststørrelse {
+
+.tekststørrelse {
 	font-size: 24px;
 }
 
