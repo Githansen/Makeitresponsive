@@ -116,6 +116,14 @@ grid-column: auto /span 2;
     border-radius: 10px;
 	align-items: top;
 }
+#photo1 {
+	padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #BFBDB3;
+    border-radius: 10px;
+	align-items: top;
+}
 #tekststørrelse {
 	font-size: 24px;
 }
