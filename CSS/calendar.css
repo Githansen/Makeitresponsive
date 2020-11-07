@@ -21,6 +21,20 @@ font-size: 20px;
 	display: grid;
 	grid-column: auto; 
 	grid-row: auto; 
+	height: 150px;
+	width: 100%;
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	word-break: break-all;
+	text-align: center;
+	
+}
+.sunday{
+	background-color: #EC7063;
+	display: grid;
+	grid-column: auto; 
+	grid-row: auto; 
 	
 	height: 150px;
 	width: 100%
@@ -29,10 +43,6 @@ font-size: 20px;
 	border-style: solid;
 	word-break: break-all;
 	text-align: center;
-	
-}
-#sunday{
-	background-color: #EC7063;
 }
 .month {
 	display: grid; 
@@ -130,12 +140,44 @@ display: grid;
 .weekday2:hover >p + .skjul6{
 	display: block;
 }
-#date {
+.date {
 	background-color: #A3E4D7;
+	display: grid;
+	grid-column: auto; 
+	grid-row: auto; 
+	height: 150px;
+	width: 100%
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	word-break: break-all;
+	text-align: center;
 }
-#blank {
+.blank {
 	background-color: #566573;
+	display: grid;
+	grid-column: auto; 
+	grid-row: auto; 
+	height: 150px;
+	width: 100%;
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	word-break: break-all;
+	text-align: center;
+	
 }
-#weeknumber {
+.weeknumber {
 	background-color: #F2D7D5;
+	display: grid;
+	grid-column: auto; 
+	grid-row: auto; 
+	height: 150px;
+	width: 100%;
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
+	word-break: break-all;
+	text-align: center;
+	
 }
