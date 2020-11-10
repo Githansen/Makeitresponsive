@@ -43,7 +43,7 @@ button {
   
 	
 }
-
+#xxx
 .navigasjon:hover .droppinnhold {
 	display: block;
 }
@@ -67,5 +67,11 @@ button {
 @media only screen and (max-width: 500px){
 	#hey {
 		width: 145%;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	#xxx {
+		width: 110%;
 	}
 }
