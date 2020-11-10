@@ -37,7 +37,7 @@ font-size: 20px;
 	grid-row: auto; 
 	
 	height: 150px;
-	width: 100%
+	width: 100%;
 	border-color: black;
 	border-radius: 5px;
 	border-style: solid;
@@ -180,4 +180,9 @@ display: grid;
 	word-break: break-all;
 	text-align: center;
 	
+}
+@media only screen and (max-width: 800px) {
+	.gridcontainer1 {
+		3% 3% auto auto auto auto auto auto auto;
+	}
 }

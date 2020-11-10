@@ -1,7 +1,7 @@
 .navigasjon {
   overflow: hidden;
   background-color: #566573;
-  width: 100%;
+  width: 100vh;
 }
 
 .navigasjon a {
