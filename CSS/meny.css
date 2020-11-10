@@ -1,7 +1,7 @@
 .navigasjon {
   overflow: hidden;
   background-color: #566573;
-  width: 100vh;
+  width: 100%;
 }
 
 .navigasjon a {
@@ -13,6 +13,9 @@
   text-decoration: none;
   margin-top: 25px;
   font-size: 20px;
+	
+}
+#hey {
 	
 }
 .navigasjon img {
@@ -44,14 +47,25 @@ button {
 .navigasjon:hover .droppinnhold {
 	display: block;
 }
-@media only screen and (max-width: 600px) {
-	
+@media only screen and (max-width: 850px) {
+	#hey {
+		width: 105%;
+	}
 	.navigasjon p{
 		display: none;
 	}
 	.droppmeny {
 		display: block; 
 	}
+	@media only screen and (max-width: 700px){
+		#hey {
+			width: 125%;
+		}
+	}
 	
-	
+}
+@media only screen and (max-width: 500px){
+	#hey {
+		width: 145%;
+	}
 }
