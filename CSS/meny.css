@@ -72,8 +72,3 @@ button {
 	}
 }
 
-@media only screen and (max-width: 850px){
-	#xxx {
-		width: 150%;
-	}
-}
