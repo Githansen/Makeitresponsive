@@ -176,8 +176,7 @@ grid-column: auto/ span 2;
 		
 	}
 	.small2 img {
-		height: 400px; 
-		width: 350px;
+		display: none;
 	}
 	.smalttext1 {
 		display: none;
