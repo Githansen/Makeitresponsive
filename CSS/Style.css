@@ -42,7 +42,7 @@ grid-column: auto/span 4;
 	display: none; 
 }
 .medium3 {
-		grid-row: auto;
+		grid-row: auto/ span 2;
 grid-column: auto/span 2;
    
     justify-items: center;
