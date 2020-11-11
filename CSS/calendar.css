@@ -7,7 +7,7 @@ font-size: 20px;
 }
 .footer {
 grid-column: 1 / span 9;
-grid-row: auto; 
+grid-row: 16; 
 background-color: black;
 color: white; 
 text-align: center;
