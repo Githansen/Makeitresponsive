@@ -11,6 +11,10 @@
     background-color: #EDBB99  ;
     border-radius: 10px;
 	align-items: top;
+	
+}
+a {
+	text-decoration: none;
 }
 .medium {
 		grid-row: auto / span 3;
@@ -27,6 +31,7 @@ grid-column: auto/span 2;
     justify-items: center;
     align-items: center;
 	margin-left: 25px;
+	
 }
 .medium2 {
 		grid-row: auto;
@@ -74,8 +79,17 @@ body {
 	background-color: #EBF5FB; 
 }
 .tekststørrelse {
-	font-size: 24px;
+	font-size: 28px;
 	text-align: center;
+
+}
+.small {
+		grid-row: auto;
+grid-column: auto;
+   display: grid;
+    justify-items: center;
+    align-items: center;
+	width: 100%;
 
 }
 b {
