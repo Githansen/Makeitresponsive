@@ -30,7 +30,6 @@ grid-column: auto/span 2;
     justify-items: center;
     align-items: center;
 	margin-left: 25px;
-	
 }
 .medium2 {
 		grid-row: auto;
@@ -172,7 +171,7 @@ grid-column: auto/ span 2;
 	
 	.smallpic img {
 		height: 60vh;
-		width: 60vh;
+		width: 40vh;
 		
 	}
 	.small2 img {

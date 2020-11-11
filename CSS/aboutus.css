@@ -68,7 +68,7 @@ grid-column: auto/span 4;
     border-radius: 10px;
 	align-items: top;
 	box-shadow: 2px 5px black; 
-	width: auto;
+	width: 50%;
 }
 body {
 	background-color: #EBF5FB; 
