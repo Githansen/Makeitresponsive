@@ -172,7 +172,7 @@ grid-column: auto/ span 2;
 	.smallpic img {
 		height: 60vh;
 		width: 40vh;
-		left: -40px;
+		left: -80px;
 	}
 	.small2 img {
 		display: none;
