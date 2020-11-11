@@ -60,12 +60,11 @@ body {
 }
 .smallpic {
 		grid-row: auto ;
-grid-column: auto /span 2;
+grid-column: auto/span 2;
    display: grid;
-    justify-items: center;
     align-items: center;
-	margin-left: 50px;
 	
+	background-color: #EDBB99;
 	  
 }
 
@@ -73,22 +72,11 @@ grid-column: auto /span 2;
 	max-height: 75%;
 	max-width: 75%;
 	min-width: 10%;
+	max-width: 40vh;
 	min-height: 10%;
 	position: relative;
-	
-}
-
-.skjul {
-	grid-row: auto;
-	grid-column: auto / span 2;
-	display: none;
-	position: absolute;
-	overflow: hidden;
-	
-}
-.smallpic:hover >img + .skjul {
-    display: block;
-	
+	height: 300px; 
+	margin-left: 25%;
 }
 
 .medium img{
@@ -121,7 +109,7 @@ grid-column: auto /span 2;
     background-color: #BFBDB3;
     border-radius: 10px;
 	align-items: top;
-	
+	box-shadow: 2px 5px black; 
 }
 
 .tekststørrelse {
@@ -155,7 +143,10 @@ grid-column: auto/ span 2;
 	.small img {
 		display: none;
 	}
-	
+	.smallpic img {
+		height: 250px;
+		width: 250px;
+	}
 	.smalttext1 {
 		display: none;
 	}
