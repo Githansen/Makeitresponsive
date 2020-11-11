@@ -144,8 +144,8 @@ grid-column: auto/ span 2;
 		display: none;
 	}
 	.smallpic img {
-		height: 250px;
-		width: 250px;
+		height: 150px;
+		width: 150px;
 	}
 	.smalttext1 {
 		display: none;
