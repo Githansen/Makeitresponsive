@@ -1,0 +1,11 @@
+.footer {
+grid-column: 1 / span 4;
+grid-row: auto; 
+background-color: black;
+color: white; 
+text-align: center;
+text-decoration: none; 
+}
+.footer a {
+	color: white;
+}
