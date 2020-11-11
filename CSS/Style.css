@@ -140,7 +140,7 @@ grid-column: auto/ span 2;
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 	.small img {
 		display: none;
 	}
@@ -156,13 +156,8 @@ grid-column: auto/ span 2;
 	}
 	.smallpic {
 		grid-column: auto / span 4;
+		grid-row: auto / span 2;
 	}
 	
 }
-@media only screen and(max-height: 1000px){
-	
-	.smallpic img {
-		margin-left: 0px;
-	}
-	
-}
+
