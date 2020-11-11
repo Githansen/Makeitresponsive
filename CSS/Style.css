@@ -11,7 +11,7 @@ grid-column: 3;
    display: grid;
     justify-items: center;
     align-items: center;
-	
+	width: 100%;
 
 }
 .small2 {
@@ -24,7 +24,7 @@ grid-column: 3;
 
 }
 .medium {
-		grid-row: auto;
+		grid-row: auto / span 3;
 grid-column: auto/span 2;
    display: grid;
     justify-items: center;
@@ -171,8 +171,9 @@ grid-column: auto/ span 2;
 @media only screen and (max-width: 1000px) {
 	
 	.smallpic img {
-		height: 300px;
-		width: 75%;
+		height: 60vh;
+		width: 60vh;
+		
 	}
 	.small2 img {
 		height: 400px; 
