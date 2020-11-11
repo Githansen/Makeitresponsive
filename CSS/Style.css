@@ -110,6 +110,7 @@ grid-column: auto/span 2;
     border-radius: 10px;
 	align-items: top;
 	box-shadow: 2px 5px black; 
+	width: auto;
 }
 
 .tekststørrelse {
@@ -152,6 +153,9 @@ grid-column: auto/ span 2;
 	}
 	.smalltext {
 		display: block; 
+	}
+	.smallpic {
+		grid-column: auto / span 4;
 	}
 	
 }
