@@ -173,8 +173,9 @@ strong {
 @media only screen and (max-width: 1000px) {
 	
 	.smallpic img {
-		min-width: 40%;
-		left: -50px;
+		min-width: 20%;
+		height: auto;
+		left: -70px;
 	}
 	.smallpic {
 		grid-column: 1/span 4;
@@ -218,6 +219,18 @@ strong {
 	}
 	.medium3 {
 		display: block;
+	}
+}
+@media only screen and (max-width: 370px) {
+	.small2 img {
+		height: 150px;
+		width: 150px;
+		
+	}
+	.smallpic img {
+		height: 150px;
+		width: 150px;
+		left: -50px;
 	}
 }
 
