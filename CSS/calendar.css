@@ -193,8 +193,4 @@ display: grid;
 	text-align: center;
 	
 }
-@media only screen and (max-width: 800px) {
-	.gridcontainer1 {
-		auto auto auto auto auto auto auto auto auto;
-	}
-}
+
