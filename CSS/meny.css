@@ -39,7 +39,7 @@ button {
 	background-color: grey;
 	
 	position: absolute;
-  width: calc(100% - 8px);
+  width: calc(100% - 16px);
   font-size: 18px;
   
 	
