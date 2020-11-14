@@ -106,15 +106,7 @@ grid-column: auto/span 2;
 	margin-left: 25%;
 }
 
-.medium img{
-	max-width: 100%;
-	max-height: 350px;
-	min-width: 100px;
-	min-height: 100px;
-	position: relative;
-	
-	
-}
+
 
 .medium b {
 	text-align: center;
@@ -177,6 +169,7 @@ strong {
 		height: auto;
 		left: -70px;
 	}
+	
 	.smallpic {
 		grid-column: 1/span 4;
 	}
@@ -213,6 +206,8 @@ strong {
 	}
 	.medium2 {
 		display: block; 
+		grid-column: 1/span 4; 
+		
 	}
 	.medium {
 		display: none;
@@ -220,6 +215,7 @@ strong {
 	.medium3 {
 		display: block;
 	}
+	
 }
 @media only screen and (max-width: 370px) {
 	.small2 img {

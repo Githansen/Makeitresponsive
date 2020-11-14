@@ -22,7 +22,7 @@ grid-column: auto/span 2;
    display: grid;
     justify-items: center;
     align-items: center;
-	margin-left: 25px;
+	
 }
 .medium1 {
 		grid-row: auto;
@@ -39,18 +39,19 @@ grid-column: auto/span 2;
    display: none;
     justify-items: center;
     align-items: center;
-	margin-left: 25px;
+	margin-left: -20px;
 }
 .medium b {
 	text-align: center;
 	font-size: 20px;
 }
-.medium img{
-	max-width: 100%;
-	max-height: 350px;
-	min-width: 100px;
-	min-height: 100px;
-	position: relative;
+.medium4 img{
+	max-width: 60%;
+	max-height: 600px;
+	min-width: 250px;
+	min-height: 250px;
+	margin-left: 10px;
+	
 }
 
 .omoss {
@@ -98,8 +99,29 @@ b {
 @media only screen and (max-width: 1000px) {
 	.medium2 {
 		display: block;
+		grid-column: 1/span 4;
+		
+	}
+	.medium {
+		grid-column: 1/span 4;
+		width: 100%;
+	}
+	.tekststørrelse {
+		text-align: left;
 	}
 	.medium1 {
 		display: none;
 	}
+	.medium img  {
+		width: 300px;
+		
+	}
+	.small {
+		grid-column: auto / span 2;
+	}
+	.medium4 {
+		grid-row: 3;
+		grid-column: 1/span 4;
+	}
+	
 }
