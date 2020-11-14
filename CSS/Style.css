@@ -173,8 +173,8 @@ strong {
 @media only screen and (max-width: 1000px) {
 	
 	.smallpic img {
-		
-		left: -100px;
+		min-width: 40%;
+		left: -50px;
 	}
 	.smallpic {
 		grid-column: 1/span 4;
