@@ -50,26 +50,15 @@ button {
 	display: block;
 }
 @media only screen and (max-width: 850px) {
-	#hey {
-		width: 105%;
-	}
+	
 	.navigasjon p{
 		display: none;
 	}
 	.droppmeny {
 		display: block; 
 	}
-	@media only screen and (max-width: 700px){
-		#hey {
-			width: 125%;
-		}
-	}
+	
 	
 }
-@media only screen and (max-width: 500px){
-	#hey {
-		width: 145%;
-	}
-}
-@media only screen and (max-width: 200px)
+
 
