@@ -158,11 +158,11 @@ display: grid;
 	grid-column: auto; 
 	grid-row: auto; 
 	height: 150px;
-	width: 100%
+	width: 100%;
 	border-color: black;
 	border-radius: 5px;
-	border-style: solid;
 	word-break: break-all;
+	border-style: solid;
 	text-align: center;
 }
 .blank {
@@ -195,6 +195,6 @@ display: grid;
 }
 @media only screen and (max-width: 800px) {
 	.gridcontainer1 {
-		3% 3% auto auto auto auto auto auto auto;
+		auto auto auto auto auto auto auto auto auto;
 	}
 }

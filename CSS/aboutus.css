@@ -112,8 +112,8 @@ b {
 	.medium1 {
 		display: none;
 	}
-	.medium4 img  {
-		margin-left: 15%;
+	.medium img  {
+		width: 300px;
 		
 	}
 	.small {
@@ -121,7 +121,7 @@ b {
 	}
 	.medium4 {
 		grid-row: 3;
-		grid-column: 1/span 4;
+		grid-column: 1/span 3;
 	}
 	
 }
