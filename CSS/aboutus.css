@@ -24,6 +24,14 @@ grid-column: auto/span 2;
     align-items: center;
 	
 }
+.medium4 {
+		grid-row: auto / span 3;
+grid-column: auto/span 2;
+   display: grid;
+    justify-items: center;
+    align-items: center;
+	
+}
 .medium1 {
 		grid-row: auto;
 grid-column: auto/span 2;
