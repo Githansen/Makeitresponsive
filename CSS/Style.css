@@ -6,7 +6,7 @@
 	
 }
 .small {
-		grid-row: 1;
+		grid-row: auto;
 grid-column: 3;
    display: grid;
     justify-items: center;
@@ -37,7 +37,7 @@ grid-column: auto/span 4;
    
     justify-items: center;
     align-items: center;
-	margin-left: 25px;
+	
 	display: none; 
 }
 .medium3 {
@@ -173,15 +173,34 @@ strong {
 @media only screen and (max-width: 1000px) {
 	
 	.smallpic img {
-		height: 60vh;
-		width: 40vh;
-		left: -150px;
+		
+		
+		left: -100px;
+	}
+	.smallpic {
+		grid-column: 1/span 4;
+	}
+	.omoss {
+		grid-row: 7;
+	}
+	.small2 {
+		grid-row: 1; 
+		grid-column: 1/span 4; 
 	}
 	.small2 img {
-		display: none;
+		width: 400px; 
+		height: 400px; 
 	}
 	.smalttext1 {
 		display: none;
+	}
+		.small {
+			grid-row: 6; 
+			grid-column: 1/span 4;
+		}
+	.medium3 {
+		grid-row: 2; 
+		grid-column: 1/span 4;
 	}
 	.smalltext {
 		display: block; 
